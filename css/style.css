@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+  font-family: cursive;
+}
+
+.r-btn {
+  padding: 5px 20px;
+  background: linear-gradient(
+    45deg,
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+  color: #fff !important;
+}
+
+::selection {
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+  color: #fff;
+  text-shadow: 4px 2px 2px #fffd3a;
+}
+
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content-mg {
+  margin: 10px 0;
+}
+
+.content-box * + * {
+  margin: 20px 0;
+}
+
+.bg-sec {
+  background: #f8f9fa;
+}
+
+.title-box {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Navigation---------------------------------------------------------------------------- */
+nav .navbar-brand {
+  font-size: 30px;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+nav .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+nav.r-nav {
+  background: transparent;
+  padding: 20px 0px;
+  transition: 0.5s all;
+}
+
+nav.r-nav.stickyadd {
+  /* background: #fff !important; */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #000;
+  font-size: 40px;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+nav.stickyadd .navbar-nav .nav-link:hover {
+  /* color: #000 !important; */
+  color: blue !important;
+}
+
+.navbar .hamburger {
+  color: #fff;
+}
+
+nav.stickyadd .hamburger {
+  color: #000;
+}
+
+nav *,
+header * {
+  animation-delay: 0.5s;
+}
+
+/* ---------- */
+
+/* Header -----------------------------------------------------------------------*/
+header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: #fff;
+}
+
+.content-box h4 {
+  font-size: 30px;
+}
+
+.content-box h1 {
+  font-size: 52px;
+}
+
+.content-box a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box p {
+  color: #fff;
+}
+
+.content-box a:hover {
+  color: #000;
+  background: cyan;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+  transition: 0.5s all;
+  border-color: cyan;
+}
+
+/* About Us */
+
+.about li a {
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #d4d4d4;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.about li a:hover {
+  color: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+}
+
+/* Experience ---------------------------------------------------------*/
+.experience .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-color {
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+}
+
+.experience label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Service */
+
+.card,
+.card-header {
+  background: #f8f9fa !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services .card-header i {
+  font-size: 50px;
+}
+
+.service-border {
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+  transition: 0.5s all;
+}
+
+.services h5:hover + .service-border {
+  width: 100px;
+}
+
+.services p {
+  font-size: 16px;
+}
+
+.services .btn:hover {
+  color: #000 !important;
+  background: #eee !important;
+}
+
+/* Testimony */
+
+.testimony .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.testimony .test-item .test-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimony .test-item i {
+  color: grey;
+}
+
+.test-item p.test-name {
+  font-size: 11px;
+}
+
+/* Work */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Contact */
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(4, 0, 37),
+    rgb(5, 22, 97),
+    rgb(4, 41, 58),
+    rgb(13, 125, 129),
+    rgb(5, 150, 150)
+  );
+}
+
+footer .r-icon a {
+  font-size: 20px;
+  color: #848484;
+  padding: 10px;
+  border: 1px solid #848484;
+  border-radius: 50%;
+}
+
+footer .r-icon a:hover {
+  border: 1px solid #eee;
+  color: #eee;
+  transition: 0.5s all;
+}
+input:hover,
+textarea:hover {
+  box-shadow: 8px 8px 13px darkslateblue;
+}
+
+/* Media-------------------------------------------------------------------------------- */
+@media (min-width: 200px) and (max-width: 768px) {
+  .r-nav {
+    /* background: #fff !important; */
+    background: transparent;
+    backdrop-filter: blur(200px);
+  }
+  .row mt-5 .col form .r-nav .container {
+    width: 85%;
+  }
+
+  nav .navbar-brand {
+    font-size: 30px;
+    color: #000;
+  }
+
+  .navbar .hamburger {
+    color: #000;
+  }
+
+  nav .navbar-nav .nav-link {
+    color: #000 !important;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  nav .navbar-nav .nav-link:hover {
+    color: #0047ab !important;
+    background: #222222;
+    box-shadow: 0 0 5px #0047ab, 0 0 25px #0047ab, 0 0 50px #0047ab,
+      0 0 100px #0047ab, 0 0 200px #0047ab;
+    border-radius: 10px;
+    transition: 0.5s all;
+    padding: 10px;
+  }
+
+  .content-box h1 {
+    font-size: 30px;
+  }
+
+  .content-box p {
+    font-size: 16px;
+  }
+
+  header {
+    height: 100vh;
+    width: 100%;
+  }
+}
