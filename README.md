@@ -25,7 +25,9 @@ This is my personal portfolio website, meticulously crafted from scratch using H
 - Showcase my diverse skills
 - Highlight significant projects
 - Present my professional background in an accessible way
+
 I designed the portfolio with a clean, modern, and minimalistic user interface that is fully responsive, ensuring an optimal experience across devices — whether on mobile, tablet, or desktop.
+
 Beyond being a digital resume, this project also reflects my practical understanding and application of fundamental web development technologies.
 
 ---
