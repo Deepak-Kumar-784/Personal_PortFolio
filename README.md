@@ -20,8 +20,13 @@
 
 ## About
 
-This repository contains my personal portfolio website that I created using **HTML**, **CSS**, and **JavaScript**.  
-The portfolio is designed to showcase my skills, projects, and background in a clean, modern, and responsive layout.
+This is my personal portfolio website, meticulously crafted from scratch using HTML, CSS, and JavaScript. The primary objective of this project is to provide a dynamic and visually appealing platform to:
+
+- Showcase my diverse skills
+- Highlight significant projects
+- Present my professional background in an accessible way
+  I designed the portfolio with a clean, modern, and minimalistic user interface that is fully responsive, ensuring an optimal experience across devices — whether on mobile, tablet, or desktop.
+  Beyond being a digital resume, this project also reflects my practical understanding and application of fundamental web development technologies.
 
 ---
 
