@@ -43,8 +43,11 @@ Beyond being a digital resume, this project also reflects my practical understan
 ## Tech Stack
 
 - **HTML5** – Structure and content
+  Used to create the basic structure of the website with clean and organized code.
 - **CSS3** – Styling and layout
+  Added styles, colors, and layouts to make the website modern and responsive across devices.
 - **JavaScript** – Interactivity and behavior
+  Brought the site to life with dynamic features like interactive elements and smooth user interactions.
 
 ---
 
